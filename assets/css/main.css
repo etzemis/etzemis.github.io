@@ -1594,7 +1594,7 @@
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.7em;
 		letter-spacing: -1px;
 	}
 
@@ -1607,11 +1607,11 @@
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.3em;
 	}
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.2em 0;
 	}
 
 		header > p {
@@ -1660,8 +1660,10 @@
 	}
 
 	hr {
+		width: 15%;
+		margin: 0.2em 0;
 		border: 0;
-		border-top: solid 1px #ddd;
+		border-top: solid 3px #ddd;
 	}
 
 	blockquote {
@@ -1709,7 +1711,7 @@
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: none;
 		}
 
 			.image.avatar48 img {
@@ -2016,6 +2018,11 @@
 			color: rgba(255, 255, 255, 0.5);
 		}
 
+		.contact p a {
+			display: inline-block;
+			margin-bottom: 0.5em;
+		}
+
 		#header .icons {
 			font-size: 0.8em;
 			margin: 0 0 1em 0;
@@ -2039,6 +2046,7 @@
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		text-align: center;
 	}
 
 		#logo h1 {
@@ -2052,16 +2060,16 @@
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
 		}
 
-		#logo .image {
-			position: absolute;
-			left: 0;
-			top: 0;
+		#logo .image,
+		#logo .image img {
+			width: 96px;
+			height: 96px;
 		}
 
 	#nav ul li a {
@@ -2518,7 +2526,7 @@
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1.3em;
 				letter-spacing: 0;
 				font-weight: 300;
 			}
@@ -2565,7 +2573,7 @@
 	}
 
 	.entry {
-		margin-bottom: 1em;
+		margin-bottom: 0;
 	}
 
 	.entry strong {
